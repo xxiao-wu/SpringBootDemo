@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    username: root
+    password: Wjq18896059378
+    url: jdbc:mysql://localhost:3306/android?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+  devtools:
+    livereload:
+      port: 35731
+
+
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8080
